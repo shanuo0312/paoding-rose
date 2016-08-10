@@ -15,14 +15,13 @@
  */
 package net.paoding.rose.controllers;
 
+import javax.servlet.http.HttpServletRequest;
 import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
-
-import javax.servlet.http.HttpServletRequest;
 
 import net.paoding.rose.load.ResourceRef;
 import net.paoding.rose.load.RoseScanner;
@@ -48,7 +47,7 @@ import net.paoding.rose.web.impl.thread.Rose;
  * @author 王志亮 [qieqie.wang@gmail.com]
  * 
  */
-@Path("")
+@Path("rose-tool")
 public class ToolsController {
 
     private Date startupTime = new Date();
